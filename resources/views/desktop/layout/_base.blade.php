@@ -21,7 +21,7 @@
 <div id="con_wrapper">
     <div id="r_con">
         <div class="header">
-            <a href="/"><h1>芽丝轻博客</h1></a>
+            <a href="/"><h1>杂闻博客</h1></a>
         </div>
         
         @section('mainContent')
