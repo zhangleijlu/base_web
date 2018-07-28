@@ -2,8 +2,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>芽丝轻博客</title>
-    <meta name="description" content="@section('description') {{ isset($description) ? $description : '芽丝轻博客,基于YASCMF构建!' }} @show{{-- meta描述 --}}" />
+    <title>杂闻博客</title>
+    <meta name="description" content="@section('description') {{ isset($description) ? $description : '杂闻博客,!' }} @show{{-- meta描述 --}}" />
     <meta name="keywords" content="Blog,Writer,YASCMF,AdminLTE,{{ cache('website_keywords') }}" />
     <meta name="author" content="{{ cache('system_author_website', 'http://douyasi.com') }}" />
     <meta name="renderer" content="webkit">
@@ -29,8 +29,8 @@
 
 
         <div class="footer">
-            <p class="slogan">designed &amp; developed by <a href="https://raoyc.com">raoyc</a>  设计崇简</p>
-            <p>&copy; 2016 <a href="/">芽丝轻博客</a> 版权所有 -  <a href="http://www.miibeian.gov.cn/">{{ cache('website_icp', '鄂ICP备15014910号-3') }}</a></p>
+            <p class="slogan">designed &amp; developed by
+            <p>&copy; 2016 <a href="/">杂闻博客</a> 版权所有 -
         </div>
     </div>
 </div>
